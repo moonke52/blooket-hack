@@ -1,25 +1,41 @@
 copy down this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // ==UserScript==
-// @name         BETTER BLOOKET HACKS
-// @namespace    http://tampermonkey.net/
-// @version      2025-03-05
-// @description  BEST GUI 2025
-// @author       poopersch4rtz
-// @match        *://*.blooket.com/*
-// @match        *://blooket.com/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @grant        none
-// @downloadURL https://update.greasyfork.org/scripts/528823/BETTER%20BLOOKET%20HACKS.user.js
-// @updateURL https://update.greasyfork.org/scripts/528823/BETTER%20BLOOKET%20HACKS.meta.js
-// ==/UserScript==
+    // @name         BETTER BLOOKET HACKS
+    // @namespace    http://tampermonkey.net/
+    // @version      2025-03-05
+    // @description  BEST GUI 2025
+    // @author       poopersch4rtz
+    // @match        *://*.blooket.com/*
+    // @match        *://blooket.com/*
+    // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+    // @grant        none
+    // @downloadURL https://update.greasyfork.org/scripts/528823/BETTER%20BLOOKET%20HACKS.user.js
+    // @updateURL https://update.greasyfork.org/scripts/528823/BETTER%20BLOOKET%20HACKS.meta.js
+    // ==/UserScript==
 
-/**
- * @license AGPL-3.0
- * Blooket Cheats
- * Made this to give to friends at School
-/* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
+    /**
+     * @license AGPL-3.0
+     * Blooket Cheats
+     * Made this to give to friends at School
+    /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
 
-(() => {
+    (() => {
     let iframe = document.querySelector("iframe");
     if (!iframe) {
         iframe = document.createElement("iframe");
@@ -51,7 +67,7 @@ copy down this
             "--textColor2": "#f90000",
             "--toggleOff": "#E32424",
             "--toggleOn": "#24E324",
-        };
+         };
 
         let settings,
             settingsKey = "KGUI.BenIsASillyGoose";
